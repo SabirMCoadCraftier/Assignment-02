@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
 	<body class="bg-[#1A0B2E] text-white">
@@ -31,7 +31,7 @@
 			<div class="relative mb-8 flex items-center justify-center rounded-full h-[200px] w-[200px] lg:h-[350px] lg:w-[350px] bg-[url('/assets/hero-circle.png')] bg-cover bg-center">
 				<span class="absolute top-3 right-3 lg:top-6 lg:right-6 bg-[#00FF88] text-black text-xs font-bold px-3 py-1 rounded-full">NEW</span>
 
-				<img src="/assets/microphone.png" alt="Microphone" class="h-20 w-auto lg:h-32" />
+				<img src="./assets/microphone.png" alt="Microphone" class="h-20 w-auto lg:h-32" />
 			</div>
 
 			<h1 class="text-4xl lg:text-5xl font-extrabold mb-3">TechWave</h1>
@@ -217,5 +217,34 @@
 				</div>
 			</div>
 		</section>
+
+		<footer class="bg-[url('/assets/footer-bg.png')] bg-cover bg-center bg-no-repeat mt-10 py-10 px-5 flex flex-col justify-center items-center space-y-6">
+			<h1 class="text-[32px] lg:text-[48px] font-black">
+				Tech<span class="bg-linear-to-r bg-clip-text text-transparent from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Wave</span>
+			</h1>
+			<div class="grid grid-cols-2 gap-2 lg:grid-cols-4">
+				<div class="flex space-x-2 justify-center items-center">
+					<img src="./assets/spotify.png" alt="" class="h-5 w-5">
+					<p>Spotify</p>
+				</div>
+
+				<div class="flex space-x-2 justify-center items-center">
+					<img src="./assets/apple-podcast.png" alt="" class="h-5 w-5">
+					<p>Apple Podcasts</p>
+				</div>
+
+				<div class="flex space-x-2 justify-center items-center">
+					<img src="./assets/youtube-podcast.png" alt="" class="h-5 w-5">
+					<p>YouTube</p>
+				</div>
+
+				<div class="flex space-x-2 justify-center items-center">
+					<img src="./assets/twitter.png" alt="" class="h-5 w-5">
+					<p>Twitter</p>
+				</div>
+			</div>
+			<p class="opacity-60">© 2026 TechWave Podcast. All rights reserved.</p>
+		</footer>
+
 	</body>
 </html>
