@@ -1,11 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechWave</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<title>Assignment-2</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body class="bg-[#1A0B2E] text-white">
+		<nav class="flex items-center px-5 justify-between py-4 border-b-[#391a63] border-b">
+			<h1 class="text-2xl lg:text-4xl font-black">
+				Tech
+				<span class="bg-linear-to-r bg-clip-text text-transparent from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Wave</span>
+			</h1>
+			<i class="fa-solid fa-bars text-2xl lg:text-3xl leading-none lg:hidden!"></i>
+			<div class="lg:flex gap-8 hidden">
+				<p>About</p>
+				<p>Episodes</p>
+				<p>Host</p>
+			</div>
+			<button class="bg-linear-to-r hidden text-white from-[#F7E93F] via-[#FB09B4] to-[#9100F8] py-3 px-4 rounded-4xl font-bold lg:flex justify-center items-center gap-2">
+				Subscribe
+				<i class="fa-solid fa-arrow-right leading-none"></i>
+			</button>
+		</nav>
+
+		<!-- Hero section  -->
+		<section class="min-h-screen w-full bg-[url('/assets/hero-bg.png')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-5">
+			<div class="relative mb-8 flex items-center justify-center rounded-full h-[200px] w-[200px] lg:h-[350px] lg:w-[350px] bg-[url('/assets/hero-circle.png')] bg-cover bg-center">
+				<span class="absolute top-3 right-3 lg:top-6 lg:right-6 bg-[#00FF88] text-black text-xs font-bold px-3 py-1 rounded-full">NEW</span>
+
+				<img src="/assets/microphone.png" alt="Microphone" class="h-20 w-auto lg:h-32" />
+			</div>
+
+			<h1 class="text-4xl lg:text-5xl font-extrabold mb-3">TechWave</h1>
+
+			<p class="max-w-xl text-sm lg:text-base text-gray-300 mb-8">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+			<div class="flex lg:flex-row gap-4">
+				<button class="flex items-center justify-center gap-2 bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-white font-bold px-6 py-3 rounded-full">
+					<img src="/assets/spotify.png" alt="Spotify" class="h-5 w-5" />
+					Listen on Spotify
+				</button>
+
+				<button class="flex items-center justify-center gap-2 border border-[#00FF88] text-[#00FF88] font-semibold px-6 py-3 rounded-full">
+					<img src="/assets/message.png" alt="Subscribe" class="h-5 w-5" />
+					Subscribe
+				</button>
+			</div>
+		</section>
+
+		<!-- About the podcast section -->
+		<section class="text-center w-[90%] mx-auto border-b-[#391a63] border-b py-20 mb-20">
+			<h1 class="font-bold text-[32px]">About the podcast</h1>
+			<p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
+			<br>
+			<p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+		</section>
+
+		<!-- Rating section  -->
+		<section class="grid grid-cols-2 lg:grid-cols-4 gap-10">
+			<div class="text-center">
+				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">150K+</h1>
+				<p>Monthly Listeners</p>
+			</div>
+			<div class="text-center">
+				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">200+</h1>
+				<p>Episodes published</p>
+			</div>
+			<div class="text-center">
+				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">4.9<i class="fa-solid fa-star"></i></h1>
+				<p>Average Rating</p>
+			</div>
+			<div class="text-center">
+				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">50+</h1>
+				<p>Industry Experts</p>
+			</div>
+		</section>
+	</body>
 </html>
