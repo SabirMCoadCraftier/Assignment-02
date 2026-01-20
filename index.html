@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-		<title>Assignment-2</title>
+		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
@@ -53,14 +53,14 @@
 
 		<!-- About the podcast section -->
 		<section class="text-center w-[90%] mx-auto border-b-[#391a63] border-b py-20 mb-20">
-			<h1 class="font-bold text-[32px]">About the podcast </h1>
-			<p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br> We break down complex topics into digestible insights, explore productivity strategies that actually work, <br> and share stories of personal growth from industry leaders.</p>
-			<br>
+			<h1 class="font-bold text-[32px]">About the podcast</h1>
+			<p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
+			<br />
 			<p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
 		</section>
 
 		<!-- Rating section  -->
-		<section class="grid grid-cols-2 lg:grid-cols-4 gap-10">
+		<section class="grid grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
 			<div class="text-center">
 				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">150K+</h1>
 				<p>Monthly Listeners</p>
@@ -70,17 +70,17 @@
 				<p>Episodes published</p>
 			</div>
 			<div class="text-center">
-				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">4.9<i class="fa-solid fa-star"></i></h1>
+				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">
+					4.9
+					<i class="fa-solid fa-star"></i>
+				</h1>
 				<p>Average Rating</p>
 			</div>
 			<div class="text-center">
 				<h1 class="font-black text-[40px] lg:text-[48px] text-[#00FF88]">50+</h1>
-				<p>Industry Experts</p><br><br><br><br><br>
+				<p>Industry Experts</p>
 			</div>
 		</section>
-	</body>
-</html>
-</section>
 
 		<!-- Why choose section -->
 		<section class="bg-[#230E3D] py-16 px-5">
@@ -115,6 +115,73 @@
 					<img src="./assets/resource.png" alt="" />
 					<h1 class="font-bold text-[22px] my-4">Rich Resources</h1>
 					<p class="opacity-60">Access show notes, transcripts, and additional learning materials for every episode.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Featured episodes section  -->
+		<section class="flex justify-center items-center flex-col mt-9">
+			<h1 class="text-[32px] font-bold mb-9">Featured episodes</h1>
+			<div class="space-y-3.5 lg:flex lg:space-x-7">
+				<div class="w-[360px] rounded-2xl overflow-hidden bg-linear-to-b from-[#2A0E61] to-[#1A083F] shadow-xl">
+					<div class="relative h-56 bg-cover bg-center" style="background-image: url(&quot;./assets/PodcastImage1.jpeg&quot;)">
+						<div class="absolute inset-0 flex items-center justify-center">
+							<div class="w-16 h-16 rounded-full flex items-center justify-center bg-linear-to-br from-[#F7E93F] via-[#FB09B4] to-[#9100F8] shadow-lg cursor-pointer">
+								<i class="fa-solid fa-play text-white text-xl ml-1"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="p-5 space-y-3">
+						<h3 class="text-white text-lg font-semibold leading-snug">The Future of AI in Everyday Life</h3>
+
+						<p class="text-sm text-white/70 leading-relaxed">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next...</p>
+
+						<div class="flex items-center gap-2 pt-2">
+							<img src="./assets/clock.png" alt="Clock" class="w-4 h-4" />
+							<span class="text-sm font-medium text-[#00FF88]">42 min</span>
+						</div>
+					</div>
+				</div>
+				<div class="w-[360px] rounded-2xl overflow-hidden bg-linear-to-b from-[#2A0E61] to-[#1A083F] shadow-xl">
+					<div class="relative h-56 bg-cover bg-center" style="background-image: url(&quot;./assets/PodcastImage2.webp&quot;)">
+						<div class="absolute inset-0 flex items-center justify-center">
+							<div class="w-16 h-16 rounded-full flex items-center justify-center bg-linear-to-br from-[#F7E93F] via-[#FB09B4] to-[#9100F8] shadow-lg cursor-pointer">
+								<i class="fa-solid fa-play text-white text-xl ml-1"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="p-5 space-y-3">
+						<h3 class="text-white text-lg font-semibold leading-snug">Building Better Habits for Remote Work</h3>
+
+						<p class="text-sm text-white/70 leading-relaxed">Practical strategies for staying productive and maintaining work-life balance in a...</p>
+
+						<div class="flex items-center gap-2 pt-2">
+							<img src="./assets/clock.png" alt="Clock" class="w-4 h-4" />
+							<span class="text-sm font-medium text-[#00FF88]">12 min</span>
+						</div>
+					</div>
+				</div>
+				<div class="w-[360px] rounded-2xl overflow-hidden bg-linear-to-b from-[#2A0E61] to-[#1A083F] shadow-xl">
+					<div class="relative h-56 bg-cover bg-center" style="background-image: url(&quot;./assets/PodcastImage3.jpg&quot;)">
+						<div class="absolute inset-0 flex items-center justify-center">
+							<div class="w-16 h-16 rounded-full flex items-center justify-center bg-linear-to-br from-[#F7E93F] via-[#FB09B4] to-[#9100F8] shadow-lg cursor-pointer">
+								<i class="fa-solid fa-play text-white text-xl ml-1"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="p-5 space-y-3">
+						<h3 class="text-white text-lg font-semibold leading-snug">Career Growth in Tech: A Roadmap</h3>
+
+						<p class="text-sm text-white/70 leading-relaxed">Expert advice on navigating your tech career from junior developer to senior leadership...</p>
+
+						<div class="flex items-center gap-2 pt-2">
+							<img src="./assets/clock.png" alt="Clock" class="w-4 h-4" />
+							<span class="text-sm font-medium text-[#00FF88]">23 min</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
